@@ -1,0 +1,20 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+
+.avatar-picker-avatar {
+    opacity: .5;
+    transition: all .1s ease-in-out;
+
+    &:hover, &.current {
+        opacity: 1;
+    }
+}
